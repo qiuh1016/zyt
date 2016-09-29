@@ -1,0 +1,42 @@
+PODS:
+  - Alamofire (4.0.0)
+  - BaiduMapKit (3.0.0)
+  - MJRefresh (3.1.12)
+  - SDCycleScrollView (1.62):
+    - SDWebImage (~> 3.7)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SwiftyJSON (3.0.0)
+  - UMengAnalytics-NO-IDFA (4.1.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - BaiduMapKit
+  - MJRefresh
+  - SDCycleScrollView (= 1.62)
+  - SwiftyJSON (from `https://github.com/appsailor/SwiftyJSON.git`, branch `swift3`)
+  - UMengAnalytics-NO-IDFA
+
+EXTERNAL SOURCES:
+  SwiftyJSON:
+    :branch: swift3
+    :git: https://github.com/appsailor/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  SwiftyJSON:
+    :commit: 2571377e49e6c653a92d993a2bff7a9ca2d71591
+    :git: https://github.com/appsailor/SwiftyJSON.git
+
+SPEC CHECKSUMS:
+  Alamofire: fef59f00388f267e52d9b432aa5d93dc97190f14
+  BaiduMapKit: de2a726d5296d6b2dc0e974b683af73153608dcd
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  SDCycleScrollView: ae016cb4cc4036523917f146ede6f7b11d408f6a
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SwiftyJSON: f57b2b44bc166617372d1c70773591fe9f0f5fd4
+  UMengAnalytics-NO-IDFA: 1064992c1b7aaa22823179c0b33a664813fd7a85
+
+PODFILE CHECKSUM: 9540e2e3c178b203474c463890897c88347f5b20
+
+COCOAPODS: 1.1.0.rc.2

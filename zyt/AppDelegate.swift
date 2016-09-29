@@ -10,15 +10,46 @@ import UIKit
 import CoreData
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, BMKGeneralDelegate {
 
     var window: UIWindow?
-
+    var _mapManager: BMKMapManager?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //百度地图
+        _mapManager = BMKMapManager()
+        // 如果要关注网络及授权验证事件，请设定generalDelegate参数
+        let ret = _mapManager?.start("Zumj5RTTefpgIQrjkaFzddHYP3fA1Hjz", generalDelegate: self)  
+        if ret == false {
+            NSLog("manager start failed!")
+        }
+        
+        //友盟 统计
+        let configure = UMAnalyticsConfig()
+        configure.appKey = "57d76a0867e58e341c002784"
+        
+        let version = Bundle.main.infoDictionary!["CFBundleShortVersionString"]
+        if let ver = version {
+            MobClick.setAppVersion(ver as! String)
+        }
+        MobClick.start(withConfigure: configure)
+        
+        //友盟 推送
+        UMessage.start(withAppkey: "57d76a0867e58e341c002784", launchOptions: nil)
+        UMessage.registerForRemoteNotifications()
+        UMessage.setLogEnabled(true)
+        
+
         return true
     }
+    
+    func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable: Any]) {
+        //友盟 推送
+        UMessage.didReceiveRemoteNotification(userInfo)
+    }
+
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -32,6 +63,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillEnterForeground(_ application: UIApplication) {
         // Called as part of the transition from the background to the active state; here you can undo many of the changes made on entering the background.
+        
+        let current = Date().timeIntervalSince1970
+        let showUpdateTime = Foundation.UserDefaults.standard.double(forKey: "showUpdateTime")
+        //After 1 minutes, you should enter the gesturePassword.
+        if current - showUpdateTime > 300 {
+            if let vc = window?.rootViewController as? TabBarController {
+                vc.checkUpdate()
+            }
+        } else {
+            print("上次更新对话框显示时间不到5分钟")
+        }
+
     }
 
     func applicationDidBecomeActive(_ application: UIApplication) {
