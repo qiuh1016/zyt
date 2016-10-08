@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4AA2A7B386A2358BA310FA148E428F3DB90BB555",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4AA2A7B386A2358BA310FA148E428F3DB90BB555" : 9223372036854775807,
+    "6079556C693F5EE665166978C831F8FF0CB3C698" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7A1CEE02-689E-4367-BD97-254E73240AD0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4AA2A7B386A2358BA310FA148E428F3DB90BB555" : "zyt\/",
+    "6079556C693F5EE665166978C831F8FF0CB3C698" : "zytyumin-iOS\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "zyt",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "zyt.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/qiuh1016\/zyt.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4AA2A7B386A2358BA310FA148E428F3DB90BB555"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/qiuh1016\/zytyumin-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6079556C693F5EE665166978C831F8FF0CB3C698"
+    }
+  ]
+}
