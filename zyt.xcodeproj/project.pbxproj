@@ -24,20 +24,20 @@
 		B92D41EF1D8D786100C56792 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92D41E51D8D786100C56792 /* LoginViewController.swift */; };
 		B92D41F01D8D786100C56792 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92D41E61D8D786100C56792 /* SignupViewController.swift */; };
 		B92D41F11D8D786100C56792 /* SMSCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92D41E71D8D786100C56792 /* SMSCodeViewController.swift */; };
-		B92D42011D8D787000C56792 /* DimmingPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92D41F21D8D787000C56792 /* DimmingPresentationController.swift */; };
-		B92D42021D8D787000C56792 /* BounceAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92D41F31D8D787000C56792 /* BounceAnimationController.swift */; };
-		B92D42031D8D787000C56792 /* SlideOutAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92D41F41D8D787000C56792 /* SlideOutAnimationController.swift */; };
-		B92D42041D8D787000C56792 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92D41F51D8D787000C56792 /* GradientView.swift */; };
-		B92D42051D8D787000C56792 /* MyAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92D41F61D8D787000C56792 /* MyAnnotation.swift */; };
-		B92D42061D8D787000C56792 /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92D41F71D8D787000C56792 /* MD5.swift */; };
-		B92D42071D8D787000C56792 /* HudView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92D41F81D8D787000C56792 /* HudView.swift */; };
-		B92D42081D8D787000C56792 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92D41F91D8D787000C56792 /* GridView.swift */; };
-		B92D42091D8D787000C56792 /* SMSCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92D41FA1D8D787000C56792 /* SMSCodeView.swift */; };
-		B92D420A1D8D787000C56792 /* Ship.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92D41FB1D8D787000C56792 /* Ship.swift */; };
-		B92D420B1D8D787000C56792 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92D41FD1D8D787000C56792 /* Functions.swift */; };
-		B92D420C1D8D787000C56792 /* Values.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92D41FE1D8D787000C56792 /* Values.swift */; };
-		B92D420D1D8D787000C56792 /* Urls.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92D41FF1D8D787000C56792 /* Urls.swift */; };
 		B92D420F1D8D789100C56792 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B92D420E1D8D789100C56792 /* Assets.xcassets */; };
+		B95B4F091DAB81C000F19A9E /* BounceAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95B4EFD1DAB81C000F19A9E /* BounceAnimationController.swift */; };
+		B95B4F0A1DAB81C000F19A9E /* DimmingPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95B4EFE1DAB81C000F19A9E /* DimmingPresentationController.swift */; };
+		B95B4F0B1DAB81C000F19A9E /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95B4EFF1DAB81C000F19A9E /* Functions.swift */; };
+		B95B4F0C1DAB81C000F19A9E /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95B4F001DAB81C000F19A9E /* GradientView.swift */; };
+		B95B4F0D1DAB81C000F19A9E /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95B4F011DAB81C000F19A9E /* GridView.swift */; };
+		B95B4F0E1DAB81C000F19A9E /* HudView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95B4F021DAB81C000F19A9E /* HudView.swift */; };
+		B95B4F0F1DAB81C000F19A9E /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95B4F031DAB81C000F19A9E /* MD5.swift */; };
+		B95B4F101DAB81C000F19A9E /* MyAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95B4F041DAB81C000F19A9E /* MyAnnotation.swift */; };
+		B95B4F111DAB81C000F19A9E /* Ship.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95B4F051DAB81C000F19A9E /* Ship.swift */; };
+		B95B4F121DAB81C000F19A9E /* SlideOutAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95B4F061DAB81C000F19A9E /* SlideOutAnimationController.swift */; };
+		B95B4F131DAB81C000F19A9E /* Urls.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95B4F071DAB81C000F19A9E /* Urls.swift */; };
+		B95B4F141DAB81C000F19A9E /* Values.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95B4F081DAB81C000F19A9E /* Values.swift */; };
+		B95B4F161DAB81FA00F19A9E /* SMSCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95B4F151DAB81FA00F19A9E /* SMSCodeView.swift */; };
 		B95C3DAB1D9CEC5700583A89 /* VersionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95C3DAA1D9CEC5700583A89 /* VersionViewController.swift */; };
 		FE13A14BDB638F7750EA80B0 /* Pods_zyt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04AE39D689C18846EC48E491 /* Pods_zyt.framework */; };
 /* End PBXBuildFile section */
@@ -67,20 +67,20 @@
 		B92D41E51D8D786100C56792 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B92D41E61D8D786100C56792 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		B92D41E71D8D786100C56792 /* SMSCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMSCodeViewController.swift; sourceTree = "<group>"; };
-		B92D41F21D8D787000C56792 /* DimmingPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DimmingPresentationController.swift; sourceTree = "<group>"; };
-		B92D41F31D8D787000C56792 /* BounceAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BounceAnimationController.swift; sourceTree = "<group>"; };
-		B92D41F41D8D787000C56792 /* SlideOutAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideOutAnimationController.swift; sourceTree = "<group>"; };
-		B92D41F51D8D787000C56792 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
-		B92D41F61D8D787000C56792 /* MyAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAnnotation.swift; sourceTree = "<group>"; };
-		B92D41F71D8D787000C56792 /* MD5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MD5.swift; sourceTree = "<group>"; };
-		B92D41F81D8D787000C56792 /* HudView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HudView.swift; sourceTree = "<group>"; };
-		B92D41F91D8D787000C56792 /* GridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
-		B92D41FA1D8D787000C56792 /* SMSCodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMSCodeView.swift; sourceTree = "<group>"; };
-		B92D41FB1D8D787000C56792 /* Ship.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ship.swift; sourceTree = "<group>"; };
-		B92D41FD1D8D787000C56792 /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
-		B92D41FE1D8D787000C56792 /* Values.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Values.swift; sourceTree = "<group>"; };
-		B92D41FF1D8D787000C56792 /* Urls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Urls.swift; sourceTree = "<group>"; };
 		B92D420E1D8D789100C56792 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B95B4EFD1DAB81C000F19A9E /* BounceAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BounceAnimationController.swift; sourceTree = "<group>"; };
+		B95B4EFE1DAB81C000F19A9E /* DimmingPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DimmingPresentationController.swift; sourceTree = "<group>"; };
+		B95B4EFF1DAB81C000F19A9E /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		B95B4F001DAB81C000F19A9E /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		B95B4F011DAB81C000F19A9E /* GridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		B95B4F021DAB81C000F19A9E /* HudView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HudView.swift; sourceTree = "<group>"; };
+		B95B4F031DAB81C000F19A9E /* MD5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MD5.swift; sourceTree = "<group>"; };
+		B95B4F041DAB81C000F19A9E /* MyAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAnnotation.swift; sourceTree = "<group>"; };
+		B95B4F051DAB81C000F19A9E /* Ship.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ship.swift; sourceTree = "<group>"; };
+		B95B4F061DAB81C000F19A9E /* SlideOutAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideOutAnimationController.swift; sourceTree = "<group>"; };
+		B95B4F071DAB81C000F19A9E /* Urls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Urls.swift; sourceTree = "<group>"; };
+		B95B4F081DAB81C000F19A9E /* Values.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Values.swift; sourceTree = "<group>"; };
+		B95B4F151DAB81FA00F19A9E /* SMSCodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMSCodeView.swift; sourceTree = "<group>"; };
 		B95C3DAA1D9CEC5700583A89 /* VersionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersionViewController.swift; sourceTree = "<group>"; };
 		B9F162271D9D09F0005858FA /* zyt.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = zyt.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -133,8 +133,7 @@
 				B92D41E61D8D786100C56792 /* SignupViewController.swift */,
 				B92D41E71D8D786100C56792 /* SMSCodeViewController.swift */,
 				B95C3DAA1D9CEC5700583A89 /* VersionViewController.swift */,
-				B92D41FC1D8D787000C56792 /* MyClass */,
-				B92D42001D8D787000C56792 /* Utils */,
+				B95B4EFC1DAB81C000F19A9E /* MyClass */,
 				B92D41DC1D8D785300C56792 /* Main.storyboard */,
 				B92D41C81D8D6CF300C56792 /* LaunchScreen.storyboard */,
 				B92D420E1D8D789100C56792 /* Assets.xcassets */,
@@ -156,33 +155,24 @@
 			path = UMessage_Sdk_1.3.0;
 			sourceTree = "<group>";
 		};
-		B92D41FC1D8D787000C56792 /* MyClass */ = {
+		B95B4EFC1DAB81C000F19A9E /* MyClass */ = {
 			isa = PBXGroup;
 			children = (
-				B92D41F21D8D787000C56792 /* DimmingPresentationController.swift */,
-				B92D41F31D8D787000C56792 /* BounceAnimationController.swift */,
-				B92D41F41D8D787000C56792 /* SlideOutAnimationController.swift */,
-				B92D41F51D8D787000C56792 /* GradientView.swift */,
-				B92D41F61D8D787000C56792 /* MyAnnotation.swift */,
-				B92D41F71D8D787000C56792 /* MD5.swift */,
-				B92D41F81D8D787000C56792 /* HudView.swift */,
-				B92D41F91D8D787000C56792 /* GridView.swift */,
-				B92D41FA1D8D787000C56792 /* SMSCodeView.swift */,
-				B92D41FB1D8D787000C56792 /* Ship.swift */,
+				B95B4EFD1DAB81C000F19A9E /* BounceAnimationController.swift */,
+				B95B4EFE1DAB81C000F19A9E /* DimmingPresentationController.swift */,
+				B95B4F061DAB81C000F19A9E /* SlideOutAnimationController.swift */,
+				B95B4F151DAB81FA00F19A9E /* SMSCodeView.swift */,
+				B95B4F001DAB81C000F19A9E /* GradientView.swift */,
+				B95B4F011DAB81C000F19A9E /* GridView.swift */,
+				B95B4F021DAB81C000F19A9E /* HudView.swift */,
+				B95B4F031DAB81C000F19A9E /* MD5.swift */,
+				B95B4F041DAB81C000F19A9E /* MyAnnotation.swift */,
+				B95B4F051DAB81C000F19A9E /* Ship.swift */,
+				B95B4EFF1DAB81C000F19A9E /* Functions.swift */,
+				B95B4F081DAB81C000F19A9E /* Values.swift */,
+				B95B4F071DAB81C000F19A9E /* Urls.swift */,
 			);
-			name = MyClass;
-			path = "../../zytyumin-iOS/zytyumin-iOS";
-			sourceTree = "<group>";
-		};
-		B92D42001D8D787000C56792 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				B92D41FD1D8D787000C56792 /* Functions.swift */,
-				B92D41FE1D8D787000C56792 /* Values.swift */,
-				B92D41FF1D8D787000C56792 /* Urls.swift */,
-			);
-			name = Utils;
-			path = "../../zytyumin-iOS/zytyumin-iOS";
+			path = MyClass;
 			sourceTree = "<group>";
 		};
 		D69D4E3C3F131112F341B62C /* Frameworks */ = {
@@ -334,29 +324,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				B92D41EB1D8D786100C56792 /* UserViewController.swift in Sources */,
-				B92D42011D8D787000C56792 /* DimmingPresentationController.swift in Sources */,
-				B92D42051D8D787000C56792 /* MyAnnotation.swift in Sources */,
+				B95B4F0A1DAB81C000F19A9E /* DimmingPresentationController.swift in Sources */,
+				B95B4F101DAB81C000F19A9E /* MyAnnotation.swift in Sources */,
+				B95B4F0F1DAB81C000F19A9E /* MD5.swift in Sources */,
 				B92D41BF1D8D6CF300C56792 /* ViewController.swift in Sources */,
+				B95B4F111DAB81C000F19A9E /* Ship.swift in Sources */,
+				B95B4F0B1DAB81C000F19A9E /* Functions.swift in Sources */,
 				B92D41EA1D8D786100C56792 /* MapViewController.swift in Sources */,
-				B92D42021D8D787000C56792 /* BounceAnimationController.swift in Sources */,
-				B92D42041D8D787000C56792 /* GradientView.swift in Sources */,
-				B92D42061D8D787000C56792 /* MD5.swift in Sources */,
 				B92D41E81D8D786100C56792 /* TabBarController.swift in Sources */,
+				B95B4F091DAB81C000F19A9E /* BounceAnimationController.swift in Sources */,
+				B95B4F0E1DAB81C000F19A9E /* HudView.swift in Sources */,
 				B92D41C51D8D6CF300C56792 /* zyt.xcdatamodeld in Sources */,
-				B92D42081D8D787000C56792 /* GridView.swift in Sources */,
-				B92D420B1D8D787000C56792 /* Functions.swift in Sources */,
 				B92D41BD1D8D6CF300C56792 /* AppDelegate.swift in Sources */,
 				B92D41F01D8D786100C56792 /* SignupViewController.swift in Sources */,
-				B92D420A1D8D787000C56792 /* Ship.swift in Sources */,
-				B92D42091D8D787000C56792 /* SMSCodeView.swift in Sources */,
+				B95B4F0C1DAB81C000F19A9E /* GradientView.swift in Sources */,
 				B92D41F11D8D786100C56792 /* SMSCodeViewController.swift in Sources */,
 				B92D41EE1D8D786100C56792 /* ShipInfoViewController.swift in Sources */,
-				B92D42031D8D787000C56792 /* SlideOutAnimationController.swift in Sources */,
+				B95B4F0D1DAB81C000F19A9E /* GridView.swift in Sources */,
+				B95B4F131DAB81C000F19A9E /* Urls.swift in Sources */,
 				B92D41E91D8D786100C56792 /* HomepageViewController.swift in Sources */,
-				B92D42071D8D787000C56792 /* HudView.swift in Sources */,
+				B95B4F161DAB81FA00F19A9E /* SMSCodeView.swift in Sources */,
+				B95B4F121DAB81C000F19A9E /* SlideOutAnimationController.swift in Sources */,
 				B92D41EC1D8D786100C56792 /* WebViewController.swift in Sources */,
-				B92D420C1D8D787000C56792 /* Values.swift in Sources */,
-				B92D420D1D8D787000C56792 /* Urls.swift in Sources */,
+				B95B4F141DAB81C000F19A9E /* Values.swift in Sources */,
 				B95C3DAB1D9CEC5700583A89 /* VersionViewController.swift in Sources */,
 				B92D41ED1D8D786100C56792 /* ServiceViewController.swift in Sources */,
 				B92D41EF1D8D786100C56792 /* LoginViewController.swift in Sources */,
